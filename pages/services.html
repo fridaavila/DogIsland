@@ -5,150 +5,226 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/dog (1).png" type="image/x-icon">
 </head>
 <body>
     <!-- start header -->
     <header id="headerServices" class="headerImg">
-        <nav>
-            <a href="../index.html"><img src="../img/logo.png" alt=""></a>
-            <ul>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="meet-the-island.html">Meet the Island</a></li>
-                <li><a href="#">Contact</a></li>
+       <!-- starts nav -->
+       <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid navbar-dark">
+        <a class="navbar-brand" href="../index.html"><img src="../img/dog (1).png" alt="logo of dog island"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="meet-the-island.html">Meet the Island</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
             </ul>
-        </nav>
-        <h1>Services</h1>
-        <img src="" alt="">
+        </div>
+        </div>
+    </nav>
+    <!-- ends nav -->
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-start mt-lg-5 mt-sm-1">
+          <h1>Services</h1>
+      </div>
+  </div>
     </header>
     <!-- ends header -->
-    <main>
-        <h2>Grooming</h2>
-        <section class="serviceSection">
-            <div class="card">
-                <p>Small dog</p>
-                <h6>$39</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, non officia optio nisi, nostrum doloremque vero delectus voluptatem ipsa porro consequatur dolorum exercitationem</p>
-                <ul>
-                    <li>lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ul>
-            </div>
-            <div class="card">
-                <p>Medium dog</p>
-                <h6>$39</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, non officia optio nisi, nostrum doloremque vero delectus voluptatem ipsa porro consequatur dolorum exercitationem, eveniet dolore asperiores natus enim eius maiores?</p>
-                <ul>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ul>
-            </div>
-            <div class="card"> 
-                <p>Large dog</p>
-                <h6>$39</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, non officia optio nisi, nostrum doloremque vero delectus voluptatem ipsa porro consequatur dolorum exercitationem, eveniet dolore asperiores natus enim eius maiores?</p>
-                <ul>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ul>
-            </div>
-        </section>
-        <h2>Daycare</h2>
-        <section class="serviceSection">
-            <div class="card">
-                <p>Standar</p>
-                <h6>$70</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ut, a enim mollitia ad placeat! Numquam sunt quisquam sit quia nulla? Quibusdam temporibus eveniet nisi perferendis, consequuntur unde asperiores expedita!</p>
-                <ul>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ul>
-            </div>
-            <div class="card">
-                <p>Premium</p>
-                <h6>$70</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sapiente odio laborum tempore. Repellat accusantium veritatis odit tenetur voluptatem sint, vero commodi, maiores reprehenderit rerum eum quidem impedit repudiandae expedita?</p>
-                <ul>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ul>
-            </div>
-            <div class="card">
-                <p>Deluxe</p>
-                <h6>$70</h6>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ab inventore mollitia libero saepe recusandae doloremque illum consequuntur! Laboriosam eos enim, culpa facere sed iure maiores molestias est cupiditate in.</p>
-                <ul>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ul>
+    <main id="mainServices">
+        <h2 id="servicesGrooming" class="subtitleServices">Grooming</h2>
+        <section class=" container-fluid serviceSection">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card my-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Basic Bath</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Price may vary</h6>
+                          <p class="card-text">From nose to tail and everything in between, we make dog grooming an enjoyable experince. Basic Bath includes:</p>
+                          <ul>
+                            <li>Shampoo</li>
+                            <li>Towel dry</li>
+                            <li>Ear cleaning</li>
+                            <li>Approximetaly 30 min</li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card my-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Squeeky Clean</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Price may vary</h6>
+                          <p class="card-text">From nose to tail and everything in between, we make dog grooming an enjoyable experince. Squeeky Clean includes:</p>
+                          <ul>
+                            <li>Clean up (sanitary/paws/face)</li>
+                            <li>Samphoo/Conditioner</li>
+                            <li>Blow dry</li>
+                            <li>Nail trim</li>
+                            <li>Ear cleaning</li>
+                            <li>Approximately (1-1.5 hrs)</li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card my-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">The Works</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Price may vary</h6>
+                          <p class="card-text">From nose to tail and everything in between, we make dog grooming an enjoyable experince. The Works includes:</p>
+                          <ul>
+                            <li>Haircut (full body)</li>
+                            <li>Shampoo/Conditioner</li>
+                            <li>Blow dry</li>
+                            <li>Nail trim</li>
+                            <li>Ear cleaning</li>
+                            <li>Teeth brushing</li>
+                            <li>Approximately (2-4 hrs)</li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
             </div>
         </section>
-        <h2>Hotel</h2>
-        <section class="serviceSection">
-            <div class="card">
-                <p>standar</p>
-                <h6>$120</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab porro veniam magni voluptatem? Ipsa laudantium voluptates nobis facere neque iure consequuntur impedit, adipisci nemo velit eius? Voluptate repudiandae aspernatur natus.</p>
-                <ul>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ul>
+        <h2 id="servicesDaycare" class="subtitleServices">Daycare</h2>
+        <section class=" container-fluid serviceSection">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card my-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">1/2 to 1 Day</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">$20-$40</h6>
+                          <p class="card-text">Our dog daycare includes:</p>
+                          <ul>
+                            <li>Off-leash excersice and socialization</li>
+                            <li>Trainer supervised play</li>
+                            <li>In-house veterinary supervision</li>
+                            <li>Complementary new dog integration and behavior evaluation</li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card my-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">5 days package</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">$180</h6>
+                          <p class="card-text">Our dog daycare includes:</p>
+                          <ul>
+                            <li>Off-leash excersice and socialization</li>
+                            <li>Trainer supervised play</li>
+                            <li>In-house veterinary supervision</li>
+                            <li>Complementary new dog integration and behavior evaluation</li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card my-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Memberships</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Price may vary</h6>
+                          <p class="card-text">Memberships includes unlimited access to our daycare services</p>
+                          <ul>
+                            <li>Monthly ($625)</li>
+                            <li>Bi-anual($575/month)</li>
+                            <li>Yearly ($540/month)</li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
             </div>
-            <div class="card">
-                <p>Premium</p>
-                <h6>$120</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias debitis, perferendis natus aperiam in delectus excepturi aut itaque ea quod culpa facere, vel adipisci repellendus, nesciunt eveniet! Vel, repellendus!</p>
-                <ul>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ul>
-            </div>
-            <div class="card">
-                <p>Deluxe</p>
-                <h6>$120</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempora repellendus assumenda qui aliquid, recusandae vero laborum? Maiores ut dolore fugiat repudiandae incidunt corrupti eos vel iusto necessitatibus, est autem.</p>
-                <ul>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ul>
+        </section>
+        <h2 id="servicesHotel" class="subtitleServices">Hotel</h2>
+        <section class=" container-fluid serviceSection">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card my-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Standard Room</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">$65/night</h6>
+                          <p class="card-text">Each 20-30 sq. ft. stadard room comes with:</p>
+                          <ul>
+                            <li>A raised bed (you may provide your own if preferred)</li>
+                            <li>Medication administration</li>
+                            <li>Feeding</li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card my-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Luxyry Suite</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">$95/night</h6>
+                          <p class="card-text">Our 90-100 sq. ft. luxury suites includes:</p>
+                          <ul>
+                            <li>Complementary basic bath</li>
+                            <li>Flat screen TV</li>
+                            <li>Luxury bed</li>
+                            <li>Soothing music</li>
+                            <li>Aromatherapy</li>
+                            <li>Night treat</li>
+                            <li>Medication administration</li>
+                            <li>Feeding</li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card my-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Additional Dogs</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Price may vary</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <ul>
+                            <li>20% off for 2nd dog</li>
+                            <li>30% off for 3rd dog</li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
             </div>
         </section>
      </main>
     <!-- starts footer -->
-    <footer>
-        <div class="footerContacto">
-            <h3>Contact Us</h3>
-            <p>lorem ipsum</p>
-            <button><a href="contact.html">Contact Us</a></button>
-        </div>
-        <div>
-            <img src="../img/logo.png" alt="logo of dog island">
-        </div>
-        <div>
-            <ul>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="meet-the-island.html">Meet the island</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi illo nesciunt saepe maxime debitis. Animi non repellendus quia fuga, voluptate aliquam vero illum eveniet aperiam, molestias ducimus temporibus eos qui. </p>
-        </div>
-
+    <footer class="container-fluid">
+      <div class="row">
+          <div class="col-lg-4 col-sm-12">
+              <h3>Any Questions?</h3>
+              <p>or maybe you ust wanna make your reservation!</p>
+              <a  id="btnFooter" class="btn btn-primary" href="pages/contact.html">Contact Us</a>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+              <img class="w-30" src="../img/dog (1).png" alt="logo of dog island">
+          </div>
+          <div class="col-lg-4 col-sm-12">
+              <ul id="navFooter">
+                  <li><a href="pages/services.html">Services</a></li>
+                  <li><a href="pages/about-us.html">About Us</a></li>
+                  <li><a href="pages/meet-the-island.html">Meet the Island</a></li>
+                  <li><a href="pages/contact.html">Contact Us</a></li>
+              </ul>
+          </div>
+      </div>
     </footer>
     <!-- ends footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
 </html>

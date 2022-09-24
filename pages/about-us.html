@@ -5,57 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/dog (1).png" type="image/x-icon">
 </head>
 <body>
     <!--starts header-->
     <header id="headerAboutUs" class="headerImg">
-        <nav>
-            <a href="../index.html"><img src="../img/logo.png" alt="Logo of Dog Island"></a>
-            <ul>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="meet-the-island.html">Meet the Island</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <!-- starts nav -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid navbar-dark">
+            <a class="navbar-brand" href="../index.html"><img src="../img/dog (1).png" alt="logo of dog island"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="meet-the-island.html">Meet the Island</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                </ul>
+            </div>
+            </div>
         </nav>
-        <h1>About Us</h1>
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-start mt-lg-5 mt-sm-1">
+                <h1>About Us</h1>
+            </div>
+        </div>
+        <!-- ends nav -->
     </header>
     <!--ends header-->
     <!-- starts main -->
-    <main class="aboutUs">
-        <section>
-            <img src="../img/logo.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nemo soluta consectetur distinctio, deleniti atque sequi cupiditate autem velit repudiandae voluptatibus rerum provident ex fugiat inventore, quae, quo earum ducimus?</p>
+    <main>
+        <section class="container-fluid">
+            <div class="row">
+                <img  class="col-lg-6 col-sm-12 imgBorders imgSize" src="../img/about us/groomer1.jpg" alt="">
+                <div class="col-lg-6 col-sm-12">
+                    <h2>We love dogs</h2>
+                    <p class="col-lg-6 col-sm-12">Founded and run by dog lovers, Dog Island knows first-hand the joys and stresses of owning a dog. Our Net Promoter Scores (client happiness ratings) are consistently the best in the industry and over 80% of our clients say the primary reason they use Biscuits & Bath month after month is because our team is like family. We treat your dog like our own.</p>
+                </div>
+            </div>
         </section>
-        <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolorem eveniet consequatur reprehenderit veniam aspernatur ut facilis quibusdam voluptate quasi. Sed, quibusdam! Dolorum, eos cum consequatur ratione error vero velit!</p>
-            <img src="../img/logo.png" alt="">
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col sm-12">
+                    <h2 class="col-lg-6 col-sm-12">Peace of mind</h2>
+                    <p class="col-lg-6 col-sm-12">When it comes to your dog, a member of your family, there is too much at stake to cut corners, even if it means saving a few dollars. At Biscuits & Bath we are fully licensed, insured and do everything by the book. Oh, and in case something ever happens (we are not perfect after all) we aren’t going anywhere. You can rest assured knowing that we are doing everything the right way to ensure the best care for you and your dog</p>
+                </div>
+                <img class="col-lg-6 col-sm-12 imgBorders imgSize" src="../img/about us/groomer2.jpg" alt="">
+            </div>
         </section>
     </main>
     <!-- ends main -->
     <!-- starts footer -->
-    <footer>
-        <div class="footerContacto">
-            <h3>Contact Us</h3>
-            <p>lorem ipsum</p>
-            <button><a href="contact.html">Contact Us</a></button>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <h3>Any Questions?</h3>
+                <p>or maybe you ust wanna make your reservation!</p>
+                <a  id="btnFooter" class="btn btn-primary" href="pages/contact.html">Contact Us</a>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <img class="w-30" src="../img/dog (1).png" alt="logo of dog island">
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <ul id="navFooter">
+                    <li><a href="pages/services.html">Services</a></li>
+                    <li><a href="pages/about-us.html">About Us</a></li>
+                    <li><a href="pages/meet-the-island.html">Meet the Island</a></li>
+                    <li><a href="pages/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <img src="../img/logo.png" alt="logo of dog island">
-        </div>
-        <div>
-            <ul>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="meet-the-island.html">Meet the Island</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi illo nesciunt saepe maxime debitis. Animi non repellendus quia fuga, voluptate aliquam vero illum eveniet aperiam, molestias ducimus temporibus eos qui. </p>
-        </div>
-
-    </footer>
-    <!-- ends footer -->
+      </footer>
+      <!-- ends footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

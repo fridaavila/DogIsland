@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
+@import url("https://use.typekit.net/ofe4ise.css");
+
 * {
     margin: 0;
     padding: 0;
     }
 
 h1 {
+    font-family: hobeaux, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 96px;
     font-weight: 400;
-    margin: 80px 30px 0px 30px;
     color: #fff;
 }
 
 h2 {
+    font-family: hobeaux, sans-serif;
+    font-weight: 300;
     font-size: 60px;
-    text-align: center;
-    margin: 100px 30px 25px 30px;
+    color: #025259;
+
 }
 
 h6 {
@@ -24,7 +30,6 @@ h6 {
 
 p {
     font-size: 16x;
-    margin: 15px 30px;
 }
 
 body {
@@ -45,7 +50,7 @@ nav {
     align-items: center;
 }
 
-    nav ul li {
+    .nav-item {
         list-style: none;
         margin-right: 20px;
     }
@@ -53,21 +58,40 @@ nav {
         nav ul{
             display: flex;
         }
-            nav ul li a{
-                color: #F4E2DE;
+            .nav-link{
+                color: #fff;
                 text-decoration: none;
                 font-size: 1em;
                 line-height:2em;
             }
-            nav ul li a:hover{
+            .nav-linkContact{
+                color: #025259;
+                text-decoration: none;
+                font-size: 1em;
+                line-height: 2em;
+            }
+            .nav-link:hover{
                 font-weight: 500;
-                color: #f29325
+                color: #f29325;
+            }
+            .nav-linkContact:hover {
+                font-weight: 500;
+                color: #f29325;
             }
 
+
 header p {
-    margin: 0px 30px;
     color: #fff;
 }
+
+
+#btnPrimary:hover {
+    background-color: #f4e2de;
+    color: #f29325;
+    border: solid 1px #f29325
+}
+
+
 
 /* Ends header */
 
@@ -77,33 +101,29 @@ header p {
 }
 
 #indexWhy {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    margin: 45px 0px;
+    margin: 5em 0 5em 0;
 }
-    #indexWhy div p {
-        justify-content: left;
-    }
+
+#h2Index {
+    color: #f29325;
+    display: flex;
+    justify-content: left;
+}
+
 
 #indexWhyImg {
-    margin: 30px 30px;
     height: 80vh;
 }
 
 #menuServices {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+ margin: 7em 0 7em 0;
 }
+
     #menuServices figure {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 150px 30px;
     }
         #menuServices figure figcaption {
             font-size: 40px;
@@ -131,6 +151,10 @@ header p {
 /* starts  SERVICES */
 #headerServices {
     background-image: url(../img/headers/header_services.png);
+}
+
+#mainServices {
+    margin: 100px 0 200px 0;
 }
 
 .card p {
@@ -171,7 +195,7 @@ header p {
 
 /* starts CONTACT US */
 #contactH1 {
-    color: #000;
+    color: #025259;
 }
 label {
     font-size: 16px;
@@ -202,42 +226,46 @@ iframe {
         color: #f29325;
         font-weight: 500;
     }
+#h2ContactUs {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+#mainContactUs {
+    margin: 100px 0;
+}
 /* ends CONTACT US */
 
 /* starts footer */
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 300px 30px 50px 30px;
     background-color: lightgray;
 }
     footer img {
         height: 150px;
         width: auto;
-        padding: 0px 50px;
     }
-    footer div ul {
-        display: flex;
-        justify-content: space-between;
-        list-style: none;
-    }
-        footer div ul li {
-            padding-right: 20px;
-        }
-            footer div ul li a {
-                text-decoration: none;
-                color: black;
-            }
-            footer div ul li a:hover{
-                font-weight: 500;
-                color: #f29325;
-            }
-/* ends footer */
 
-.contactSection div {
-    width: 50%;
+#btnFooter:hover {
+    background-color: #f4e2de;
+    color: #f29325;
+    border: solid 1px #f29325;
 }
+
+#navFooter{
+    list-style: none;
+}
+    #navFooter li a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    #navFooter li a:hover {
+        color: #f29325;
+        font-weight: 700;
+    }
+
+/* ends footer */
 
  #menuContact li a {
     color: darkslategray;
@@ -247,12 +275,23 @@ footer {
         color: #f29325;
     }
 
+
 /* start classes */
 .headerImg {
     height: 100vh;
     background-size: cover; 
 }
 
+.btn-primary {
+    background-color: #f29325;
+    border-style: none;
+    color: #fff;
+    /*width: 200px;
+    height: 50px;*/
+    border-radius: 5px;
+    padding: 22px 12px;
+    margin-top: 3em;
+}
 
 .indexWhy div p {
     display: flex;
@@ -264,35 +303,6 @@ footer {
 .indexServices li {
     list-style: none;
     padding: 50px 20px;
-}
-
-.header_btn {
-    color: #fff;
-    background-color: #f29325;
-    width: 200px;
-    height: 50px;
-    border-style: none;
-    border-radius: 5px;
-    padding: 12px 12px;
-    margin: 20px 30px;
-}
-
-.footerContacto{ 
-    padding: 0px 300px 0px 0px;
-}
-
-.aboutUs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contactForm {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-
-
 }
 
 .contactSection {
@@ -310,8 +320,9 @@ footer {
     margin-right: 30px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
 }
+
 
 
 .serviceSection {
@@ -325,7 +336,7 @@ footer {
 }
 
 .imgBorders {
-    border-radius: 30px;
+    border-radius: 15%;
 }
 
 .imgRound {
@@ -333,4 +344,22 @@ footer {
     height: 30vh;
 }
 
+.imgSize {
+    width: auto;
+    height: 80vh;
+}
+
+.card-title {
+    color: #f29325;
+}
+
+.card-subtitle {
+    font-size: 1em;
+}
+
+.subtitleServices {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 20px 0;
+}
 /* end classes */
