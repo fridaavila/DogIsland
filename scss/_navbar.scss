@@ -1,0 +1,36 @@
+@import "./variables";
+
+nav {
+    top: 0;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        max-width: 60px;
+    }
+    ul {
+        .nav-link {
+            color:$cream;
+                &:hover{
+                    font-weight: 500;
+                    color: #f29325;
+                }
+        }
+        .nav-linkContact {
+            color: #025259;
+            text-decoration: none;
+            font-size: 1em;
+            line-height: 2em;
+                &:hover {
+                    font-weight: 500;
+                    color: #f29325;
+                }
+        }
+    }
+    .nav-item {
+        list-style: none;
+        margin-right: 20px;
+    }
+
+}

@@ -1,0 +1,29 @@
+@import "./variables";
+
+.btn-primary {
+    background-color: $secondaryColor;
+    border-style: none;
+    color: $cream;
+    //width: 200px;
+    //height: 50px;
+    border-radius: 5px;
+    padding: 22px 12px;
+    margin-top: 3em;
+    &:hover {
+        background-color: $cream !important;
+        color: $secondaryColor !important;
+        border: solid 1px $cream !important; 
+        font-weight: 500;  
+    }
+}
+
+.btnSend {
+    width: 12.5em;
+    height: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+

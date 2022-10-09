@@ -1,0 +1,61 @@
+@import "./variables";
+
+#headerIndex {
+    background-image: $ImgHeaderIndex;
+}
+#headerAboutUs {
+    background-image: $ImgHeaderAboutUs;
+}
+#headerMeet {
+    background-image: $ImgHeaderMeet;
+}
+#headerServices {
+    background-image: $ImgHeaderServices;
+}
+.headerImg {
+    background-size: cover;
+    height: 100vh;
+}
+
+.imgBorders {
+    border-radius: 15%;
+}
+
+.imgSize {
+    width: auto;
+    height: 80vh;
+}
+
+.imgRound {
+    border-radius: 100%;
+    height: 25vh;
+}
+
+#menuServices {
+    margin: 7em 0 7em 0;
+    figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        figcaption {
+            font-size: 35px;
+            padding: 15px;
+            color: $secondaryColor;
+            font-family: $bodyText;
+            font-weight: 500;
+        }
+    }
+}
+
+#figure1:hover {
+    transform: scale(1.2);
+}
+
+#figure2:hover {
+    transform: scale(1.2);
+}
+
+#figure3:hover {
+    transform: scale(1.2);
+}

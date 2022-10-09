@@ -1,0 +1,175 @@
+//typography
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+@import "imgs";
+@import "navbar";
+@import "./variables";
+@import "buttons";
+
+
+
+main {
+    padding: 5em 3em;
+}
+h1 {
+    font-family: $titleFont;
+    color: $cream;
+    font-size: $titleSize;
+    padding-top: 0.75em;
+}
+h2 {
+    font-family: $titleFont;
+    font-size: 60px;
+    color: $mainColor;
+}
+h3 {
+    font-family: $titleFont;
+    color: $mainColor;
+    font-size: 2em;
+}
+p {
+    font-family: $bodyText;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+header {
+    p {
+        color: $cream;
+    }
+}
+
+.padding {
+    padding: 2em 0 1em 0;
+}
+
+//Footer
+footer {
+    background-color: $cream;
+    ul {
+        list-style:none;
+        li a {
+            text-decoration:none;
+            color: $mainColor;
+            &:hover {
+                color: $secondaryColor;
+                font-weight: 500;
+            }
+        }
+    }
+}
+.footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding: 4em 6em;
+}
+.footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 4em 6em;
+
+}
+.footer3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 4em 6em;
+
+
+}
+
+//SERVICES PAGE
+#mainServices {
+    margin: 100px 0 200px 0;
+}
+
+.subtitleServices {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 20px 0;
+}
+
+.card {
+    width: 300px;
+    height: 560px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+    padding: 20px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    .card-title{
+        font-size: 1.3em;
+        color: $secondaryColor;
+        margin: 0 !important;
+    }
+    .card-subtitle {
+        font-size: 1em;
+        margin: 0 !important;
+    }
+    p {
+        margin: 10px 0px;
+    }
+    ul {
+        li {
+            margin: 10px 20px;
+    
+        }
+    }
+}
+
+.card-title {
+    color: $secondaryColor;
+}
+
+.card-subtitle {
+    font-size: 1em;
+}
+
+//CONTACT US PAGE
+#contactH1 {
+    color: $secondaryColor;
+    margin-bottom: 0.5em;
+}
+
+#h2ContactUs {
+    font-size: 2.5em;
+}
+
+label {
+    font-size: 20px;
+    color:$mainColor;
+}
+
+.form-control {
+    border-radius: 5px;
+    border-color: $mainColor;
+    color: $mainColor;
+        &:focus {
+            color: $mainColor;
+            border-color: $secondaryColor;
+            outline: 0;
+            border: 1px solid $secondaryColor;
+            box-shadow: 0 0 5px $secondaryColor;
+        }
+
+
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 3.75em 0;
+}
+
+
+
