@@ -1,11 +1,18 @@
 //typography
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+@import "variables";
 @import "imgs";
 @import "navbar";
-@import "./variables";
 @import "buttons";
 
-
+//Mixins
+@mixin pushAuto {
+    margin: {
+        left: auto;
+        right: auto;
+    };
+}
+//end Mixins
 
 main {
     padding: 5em 3em;
@@ -91,7 +98,7 @@ footer {
 .subtitleServices {
     display: flex;
     justify-content: center;
-    margin: 60px 0 20px 0;
+    @include pushAuto();
 }
 
 .card {
@@ -170,6 +177,5 @@ iframe {
     width: 100%;
     margin: 3.75em 0;
 }
-
 
 

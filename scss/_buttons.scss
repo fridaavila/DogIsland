@@ -1,6 +1,4 @@
-@import "./variables";
-
-.btn-primary {
+.btn-style{
     background-color: $secondaryColor;
     border-style: none;
     color: $cream;
@@ -10,9 +8,9 @@
     padding: 22px 12px;
     margin-top: 3em;
     &:hover {
-        background-color: $cream !important;
-        color: $secondaryColor !important;
-        border: solid 1px $cream !important; 
+        background-color: $cream;
+        color: $secondaryColor;
+        border: solid 1px $cream; 
         font-weight: 500;  
     }
 }
