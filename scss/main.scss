@@ -14,20 +14,49 @@
 }
 //end Mixins
 
-main {
-    padding: 5em 3em;
+@media (min-width: 600px) {
+    main {
+        padding: 5em 3em;
+    }  
 }
-h1 {
-    font-family: $titleFont;
-    color: $cream;
-    font-size: $titleSize;
-    padding-top: 0.75em;
+@media (max-width:600px) {
+    main {
+        padding: 1em 2em;
+    }
 }
-h2 {
-    font-family: $titleFont;
-    font-size: 60px;
-    color: $mainColor;
+
+@media (min-width:600px) {
+    h1 {
+        font-family: $titleFont;
+        color: $cream;
+        font-size: $titleSize;
+        padding-top: 0.75em;
+    }  
 }
+@media (max-width: 600px) {
+    h1 {
+        font-family: $titleFont;
+        color: $cream;
+        font-size: 5em;
+        padding-top: 0.75em;
+    }  
+}
+
+@media (min-width: 600px) {
+    h2 {
+        font-family: $titleFont;
+        font-size: 60px;
+        color: $mainColor;
+    }  
+}
+@media (max-width: 600px) {
+    h2 {
+        font-family: $titleFont;
+        font-size: 2.5em;
+        color: $mainColor;
+    }  
+}
+
 h3 {
     font-family: $titleFont;
     color: $mainColor;

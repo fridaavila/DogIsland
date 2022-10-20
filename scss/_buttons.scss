@@ -2,11 +2,10 @@
     background-color: $secondaryColor;
     border-style: none;
     color: $cream;
-    //width: 200px;
-    //height: 50px;
     border-radius: 5px;
     padding: 22px 12px;
     margin-top: 3em;
+    text-decoration: none;
     &:hover {
         background-color: $cream;
         color: $secondaryColor;
