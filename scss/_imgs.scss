@@ -23,6 +23,19 @@
     width: auto;
     height: 80vh;
 }
+@media (min-width: 600px) {
+    .imgSize {
+        width: auto;
+        height: 80vh;
+    }  
+}
+@media (max-width:600px) {
+    .imgSize {
+        width: auto;
+        height: 50vh;
+        margin: auto;
+    }
+}
 
 .imgRound {
     border-radius: 100%;

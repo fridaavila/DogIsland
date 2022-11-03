@@ -6,6 +6,9 @@
     padding: 22px 12px;
     margin-top: 3em;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:hover {
         background-color: $cream;
         color: $secondaryColor;
